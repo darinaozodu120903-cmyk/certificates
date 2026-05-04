@@ -52,19 +52,21 @@ body {
 
 <script>
 
+<script>
 (function(){
-
-  emailjs.init("vbjlX7OFGCrQ8qVI_");
-
+  emailjs.init("vbj1X70FGCrQ8gVI_");
 })();
 
 emailjs.send("service_oevbmcd","template_a7zfzt9",{
   name: "Сертификат",
-  messфge: "Активирован: Помогити",
+  message: "Активирован: Помогити",
   type: "Помогити"
-
+})
+.then(function(response) {
+  alert("Письмо отправлено");
+}, function(error) {
+  alert("ОШИБКА: " + JSON.stringify(error));
 });
-
 </script>
 
 </body>
