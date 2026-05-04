@@ -52,7 +52,8 @@ body {
 
 <script>
 
-<script>
+alert("скрипт запустился");
+
 (function(){
   emailjs.init("vbj1X70FGCrQ8gVI_");
 })();
@@ -62,10 +63,10 @@ emailjs.send("service_oevbmcd","template_a7zfzt9",{
   message: "Активирован: Помогити",
   type: "Помогити"
 })
-.then(function(response) {
+.then(function() {
   alert("Письмо отправлено");
 }, function(error) {
-  alert("ОШИБКА: " + JSON.stringify(error));
+  alert("Ошибка: " + JSON.stringify(error));
 });
 </script>
 
