@@ -1,63 +1,44 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-
 <meta charset="UTF-8">
-
-<title>Помогити</title>
-
-<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-
+<title>Сертификат</title>
 <style>
-
 body {
-
   font-family: Arial;
-
   text-align: center;
-
   background: #fff0f5;
-
   padding: 50px;
-
 }
-
 .card {
-
   background: white;
-
   padding: 30px;
-
   border-radius: 20px;
-
 }
-
+button {
+  padding: 12px 22px;
+  border: none;
+  background: #ff4d6d;
+  color: white;
+  border-radius: 12px;
+  font-size: 18px;
+}
 </style>
-
 </head>
 
 <body>
 
 <div class="card">
+  <h1>🎁 Сертификат активирован</h1>
+  <p><b>Помогити 😄</b></p>
+  <p>❤️ От меня для тебя</p>
 
-  <h1>🎁 Gavekort er aktivert!</h1>
-
-  <p><b>Помогити 💆‍♂️</b></p>
-
-  <p>❤️ Kos deg!</p>
-
+  <form action="https://formsubmit.co/darinaoz.odu120903@gmail.com" method="POST">
+    <input type="hidden" name="Сертификат" value="Помогити">
+    <input type="hidden" name="_subject" value="Сертификат активирован">
+    <button type="submit">Активировать</button>
+  </form>
 </div>
 
-<script>
-<form action="https://formsubmit.co/darinaoz.odu120903@gmail.com" method="POST">
-  <input type="hidden" name="Сертификат" value="Помогити">
-  <input type="hidden" name="_subject" value="Сертификат активирован">
-  <button type="submit">Активировать</button>
-</form>
-</script>
-
 </body>
-
 </html>
