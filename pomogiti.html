@@ -61,12 +61,9 @@ alert("скрипт запустился");
 emailjs.send("service_oeybmcd","template_c16ab3h",{
   name: "Сертификат",
   message: "Активирован: Помогити",
-  type: "Помогити"
 })
 .then(function() {
   alert("Письмо отправлено");
-}, function(error) {
-  alert("Ошибка: " + JSON.stringify(error));
 });
 </script>
 
