@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Помогити</title>
+
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+<style>
+
+body {
+
+  font-family: Arial;
+
+  text-align: center;
+
+  background: #fff0f5;
+
+  padding: 50px;
+
+}
+
+.card {
+
+  background: white;
+
+  padding: 30px;
+
+  border-radius: 20px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="card">
+
+  <h1>🎁 Gavekort er aktivert!</h1>
+
+  <p><b>Помогити 💆‍♂️</b></p>
+
+  <p>❤️ Kos deg!</p>
+
+</div>
+
+<script>
+
+(function(){
+
+  emailjs.init("vbjlX7OFGCrQ8qVI_");
+
+})();
+
+emailjs.send("service_oevbmcd","template_a7zfzt9",{
+
+  type: "Помогити"
+
+});
+
+</script>
+
+</body>
+
+</html>
